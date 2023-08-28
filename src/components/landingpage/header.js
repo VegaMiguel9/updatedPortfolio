@@ -5,13 +5,8 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function header() {
   return (
-    <div className="margin" id="home">
+    <div className="margin">
       <div className="buttonFlexHeader">
-        <div className="stickyNav">
-          <a href="#home">
-            <button className="buttonStyles"> Home </button>
-          </a>
-        </div>
         <div className="stickyNav">
           <a href="#aboutMe">
             <button className="buttonStyles"> About Me </button>
