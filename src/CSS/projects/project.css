@@ -1,0 +1,93 @@
+/* picture CSS */
+.picture img {
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 3px;
+}
+
+@media (max-width: 765px) {
+    .picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 765px) {
+    .picture img {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 764px) {
+    .picture img {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .picture img {
+        width: 90%;
+    }
+}
+
+/* flex */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width: 764px) {
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+}
+
+@media (max-width: 765px) {
+    .description p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .description p {
+        padding-right: 20%;
+        font-size: 20px;
+    }
+}
+
+/* Button */
+.button button {
+    background-color: #ff705b;
+    color: white;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #ff705b;
+    font-size: 30px;
+}
+
+@media (max-width: 765px) {
+    .button button {
+        font-size: 15px;
+    }
+}
+
+/* project margin */
+.project {
+    margin-bottom: 10%;
+}
+
+@media (max-width: 765px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
