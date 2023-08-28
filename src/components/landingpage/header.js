@@ -5,10 +5,10 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function header() {
   return (
-    <div className="margin">
+    <div className="margin" id="home">
       <div className="buttonFlexHeader">
         <div className="stickyNav">
-          <a href="/">
+          <a href="#home">
             <button className="buttonStyles"> Home </button>
           </a>
         </div>
